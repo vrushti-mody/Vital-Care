@@ -1,0 +1,289 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Pacifico|Righteous|Roboto+Condensed|Ubuntu');
+@import url('https://fonts.googleapis.com/css?family=Rock+Salt');
+/*Navigation Bar*/
+.navbar-brand{
+  background: linear-gradient(to right, #30CFD0 0%, #330867 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: 'Pacifico';
+  font-size: 30px;
+}
+
+.nav-link{
+  font-size: 16px;
+  margin: 20px;
+  color: black !important;
+  font-family: 'Roboto Condensed';
+}
+.nav-link:hover{
+  color: #009999 !important;
+}
+
+.active .nav-link{
+  color: #009999 !important;
+}
+
+.menu-right-btn{
+  padding: 10px 20px;
+  margin-right: -4%;
+  margin-left: 10px;
+  background-color: transparent;
+  transition: all 300ms ease-in;
+  border-radius: 15px;
+}
+
+.menu-right-btn:hover{
+  color:white;
+  background-color: #009999;
+}
+/*Main Page*/
+
+.image{
+  width: 90%;
+  height: 35rem;
+}
+
+
+p{
+  font-size: 15px;
+}
+body {
+    background-color: #fff;
+    color: #777;
+    font: normal 15px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+}
+p {
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+h1 {
+    font-family: 'Crete Round', serif;
+    font-weight: bold;
+    color: #444;
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+h2 {
+    font-weight: 300;
+    color: #444;
+    font-size: 55px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 20px;
+}
+h3 {
+    font-size: 30px;
+    color: #444;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 20px;
+}
+h4 {
+    font-size: 24px;
+    color: #444;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+h5 {
+    font-size: 15px;
+    color: #444;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+a {
+    text-decoration: none;
+    color: #444;
+}
+a:hover {
+    color: #02b8dd;
+}
+strong {
+    font-weight: bold;
+}
+small {
+    font-size: 12px;
+    color: #777;
+    font-style: italic;
+}
+.clear {
+    clear: both;
+}
+.wrapper {
+    margin: 0 auto;
+    padding: 0 10px;
+    width: 940px;
+}
+
+#secondary-content {
+    padding: 60px 0;
+    text-align: center;
+}
+#secondary-content article {
+    width: 460px;
+    height: 270px;
+    float: left;
+    background-color: #f5f5f5;
+}
+#secondary-content article:first-child {
+    margin-right: 20px;
+}
+#secondary-content article .overlay {
+    background: rgba(255, 255, 255, .95);
+    height: 270px;
+    width: 220px;
+    padding: 20px;
+}
+#secondary-content article .image1 {
+    height: 270px;
+    width: 220px;
+  
+}
+article h4 {
+    border-bottom: 1px solid #02b8dd;
+    padding-bottom: 20px;
+}
+.more-link {
+    border: 1px solid #02b8dd;
+    color: #02b8dd;
+    padding: 6px 20px;
+    border-radius: 3px;
+}
+.more-link:hover {
+    background-color: #02b8dd;
+    color: #fff;
+}
+.image1{
+  width: 5rem;
+  height: 5rem;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,200,200italic,300,300italic,400italic,600,600italic,700,700italic,900,900italic);
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    line-height: 1.5;
+    color: #323232;
+    font-size: 15px;
+    font-weight: 400;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+}
+.heading-title {
+    margin-bottom: 100px;
+}
+.text-center {
+    text-align: center;
+}
+.heading-title h3 {
+    margin-bottom: 0;
+    letter-spacing: 2px;
+    font-weight: normal;
+}
+.p-top-30 {
+    padding-top: 30px;
+}
+.half-txt {
+    width: 60%;
+    margin: 0 auto;
+    display: inline-block;
+    line-height: 25px;
+    color: #7e7e7e;
+}
+.text-uppercase {
+    text-transform: uppercase;
+}
+
+.team-member, .team-member .team-img {
+    position: relative;
+}
+.team-member {
+    overflow: hidden;
+}
+.team-member, .team-member .team-img {
+    position: relative;
+}
+
+.team-hover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: 0;
+    border: 20px solid rgba(0, 0, 0, 0.1);
+    background-color: rgba(255, 255, 255, 0.90);
+    opacity: 0;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.team-member:hover .team-hover .desk {
+    top: 35%;
+}
+.team-member:hover .team-hover, .team-member:hover .team-hover .desk, .team-member:hover .team-hover .s-link {
+    opacity: 1;
+}
+.team-hover .desk {
+    position: absolute;
+    top: 0%;
+    width: 100%;
+    opacity: 0;
+    -webkit-transform: translateY(-55%);
+    -ms-transform: translateY(-55%);
+    transform: translateY(-55%);
+    -webkit-transition: all 0.3s 0.2s;
+    transition: all 0.3s 0.2s;
+    padding: 0 20px;
+}
+.desk, .desk h4, .team-hover .s-link a {
+    text-align: center;
+    color: #222;
+}
+.team-member:hover .team-hover .s-link {
+    bottom: 10%;
+}
+.team-member:hover .team-hover, .team-member:hover .team-hover .desk, .team-member:hover .team-hover .s-link {
+    opacity: 1;
+}
+.team-hover .s-link {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    opacity: 0;
+    text-align: center;
+    -webkit-transform: translateY(45%);
+    -ms-transform: translateY(45%);
+    transform: translateY(45%);
+    -webkit-transition: all 0.3s 0.2s;
+    transition: all 0.3s 0.2s;
+    font-size: 35px;
+}
+.desk, .desk h4, .team-hover .s-link a {
+    text-align: center;
+    color: #222;
+}
+.team-member .s-link a {
+    margin: 0 10px;
+    color: #333;
+    font-size: 16px;
+}
+.team-title {
+    position: static;
+    padding: 20px 0;
+    display: inline-block;
+    letter-spacing: 2px;
+    width: 100%;
+}
+.team-title h5 {
+    margin-bottom: 0px;
+    display: block;
+    text-transform: uppercase;
+}
+.team-title span {
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #a5a5a5;
+    letter-spacing: 1px;
+}
